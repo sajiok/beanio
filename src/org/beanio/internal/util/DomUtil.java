@@ -85,7 +85,7 @@ public class DomUtil {
             System.out.println("-------------------------------------------");
         }
         catch (Exception ex) {
-            ex.printStackTrace();
+            throw new BeanIOException(ex);
         }
     }
 }
